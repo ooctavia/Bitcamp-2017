@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "261172311230",
+    "firebase_url": "https://tutor-8553f.firebaseio.com",
+    "project_id": "tutor-8553f",
+    "storage_bucket": "tutor-8553f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261172311230:android:f706ffbf8af5aae5",
+        "android_client_info": {
+          "package_name": "com.example.osbertoctavianus.tutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261172311230-2d9m2buiklesvp6nr184dp6v9c8ov840.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsKK_dFRUwfS1ZFAlK9Pyb6i0hZhaeoVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
