@@ -19,6 +19,12 @@ android {
     }
 }
 
+repositories{
+    maven{
+      /*Not sure if it works*/  url "http://dl.bintray.com/lukaville/maven" /*Where the library is located*/
+    }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -28,6 +34,9 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.volley:volley:1.0.0'
     testCompile 'junit:junit:4.12'
+
+    compile 'com.squareup.okhttp3:okhttp:3.3.1' /*For network requests*/
+    compile 'com.nbsp:library:1.09' /*This is from the materialPickerFile library*/
 }
 
 apply plugin: 'com.google.gms.google-services'
