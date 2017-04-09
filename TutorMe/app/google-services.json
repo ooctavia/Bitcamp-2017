@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "858620898822",
+    "firebase_url": "https://tutorme-bd447.firebaseio.com",
+    "project_id": "tutorme-bd447",
+    "storage_bucket": "tutorme-bd447.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858620898822:android:da727bdc67f279ff",
+        "android_client_info": {
+          "package_name": "com.example.osbertoctavianus.tutorme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858620898822-0n2ipsrhqs5gft8po1lum8rseukkk2dq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0v8xAHa5TzglB9ui3nnP2zPaSaULzrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
