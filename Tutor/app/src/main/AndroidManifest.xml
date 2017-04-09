@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.osbertoctavianus.tutor">
 
+    <uses-permission android:name="android.permission.INTERNET"/>  /*This is the internet permission*/
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>/*permission to access files*/
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,7 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".UserAreaActivity"></activity>
+        <activity android:name=".UserAreaActivity" />
+        <activity android:name=".DocumentGetter"></activity>
     </application>
 
 </manifest>
